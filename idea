@@ -1,0 +1,41 @@
+1. Phân tích
+    1. Header
+    2. Slider
+    3. Content
+         1. About
+         2. Tour
+         3. Contact
+         4. Image
+         5. Footer
+    4. Footer
+2. Dựng base (xây mảng)
+3. Xây dựng từng thành phần theo phân tích
+4. Hoàn thiện
+
+
+- Làm từ ngoài vào trong -> từ trên xuống dưới.
+- Tổng quan -> Chi tiết
+
+- folder assets chứa file tĩnh
+- Reset CSS: - loại bỏ padding đầu tiên : padding: 0;
+             - loại bỏ margin
+             - boxsizing : borderbox để ko cần kích thước
+- Phải có thẻ div để chứa toàn bộ web
+- ."nameclass" để tạo thẻ div có class là nameclass.
+- #"nameid"
+- Những thành phân phần chính của web thường đặt bằng id.
+- Khi có nhiều thành phần giống nhau thì không dùng id vì không được trùng tên id. Mà phải dùng class.
+- Muốn chọn các từ giống nhau thì bôi đen sau đó crtl + D.
+- Crtl + Shift + L để chọn nhiều từ bôi đen giống nhau.
+- Crtl + Shift + dấu mũi tên để chọn nhiều từ.
+- Chú ý: - Vị trí
+         - Kích thước (width, height)
+         - màu sắc
+         - Kiểu dáng (kiểu chữ, hình dạng, ...)  
+         - Dạng list thì dùng ul, li.
+         - nav is navigation
+         - href = # thì không đi được đâu cả
+         - html {
+                        font- family
+                    } 
+            để set font chữ cho cả web.
